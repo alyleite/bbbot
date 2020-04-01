@@ -1,0 +1,8 @@
+node_modules
+__pycache__
+.idea
+*.pyc
+src/images/*
+!src/images/.gitkeep
+src/images_tmp/*
+!src/images_tmp/.gitkeep
