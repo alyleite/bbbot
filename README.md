@@ -77,4 +77,4 @@ TODO
   - Colocar no docker.hub;
   - Cleanup das pastas de imagens;
 
-Inspirado no https://github.com/diofeher/bbbot
+Inspirado no https://github.com/diofeher/bbbot porém acabei não fazendo o fork
