@@ -35,7 +35,7 @@ INSTALAÇÃO NO WINDOWS
 =====================
 
 1) Instale a versão mais nova do node.js https://nodejs.org/en/download/
-2) Instale a versão 3.7.1 do Python hhttps://www.python.org/downloads/release/python-371/
+2) Instale a versão 3.7.1 do Python https://www.python.org/downloads/release/python-371/
 3) Rode o arquivo `install.bat` para instalação de programas auxiliares
 4) Rode o bot com `run-server.bat`. Um prompt será mostrado perguntando suas informações (conta/senha globo, participante que quer votar)
 5) Caso o bot dê problema, tente votar manualmente primeiro com sua conta só pra depois tentar utilizar o bot.
