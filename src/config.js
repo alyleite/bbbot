@@ -7,7 +7,7 @@ const links = {
 
 const getPosition = name => {
   // console.log('Nome: '+name);
-  name = name.toLowerCase();
+  name = name ? name.toLowerCase() : '';
   switch (name) {
     case 'prior':
       return 1;
