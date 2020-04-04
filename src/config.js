@@ -1,5 +1,5 @@
 const links = {
-  voteURL: 'https://gshow.globo.com/realities/bbb/bbb20/votacao/paredao-bbb20-quem-voce-quer-eliminar-felipe-manu-ou-mari-a9f49f90-84e2-4c12-a9af-b262e2dd5be4.ghtml',
+  voteURL: 'https://gshow.globo.com/realities/bbb/bbb20/votacao/paredao-bbb20-quem-voce-quer-eliminar-babu-gabi-ou-thelma-305135b8-b442-4cc8-888f-2a01ed79cc2d.ghtml',
   globoLoginURL: "https://minhaconta.globo.com",
   captchaURL: "https://captcha.globo.com/api/challenge/generate",
   challengeAcceptedURL: "https://royale.globo.com/polls/",
@@ -9,15 +9,15 @@ const getPosition = name => {
   // console.log('Nome: '+name);
   name = name ? name.toLowerCase() : '';
   switch (name) {
-    case 'prior':
+    case 'babu':
       return 1;
-    case 'manu':
+    case 'gabi':
       return 2;
-    case 'mari':
+    case 'thelma':
       return 3;
   }
 
-  throw new Error('candidato invalido, use prior | manu | mari');
+  throw new Error('candidato invalido, use babu | gabi | thelma');
 };
 
 
