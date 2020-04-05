@@ -1,4 +1,3 @@
-
 const puppeteer = require('puppeteer');
 const {
   config,
@@ -46,8 +45,9 @@ const goToVotePage = async (page) => {
 
 
 const reloadCaptcha = async (page) => {
-  console.log('Reload Captcha.', xpaths.reloadCaptcha);
-  clickXPath(page, paths.reloadCaptcha);
+  console.log('Reload Captcha.');
+  if (await checkExists(page)(xpaths.reloadCaptcha)) {
+    await page.click(xpaths.reloadCaptcha)
   }
 }
 
