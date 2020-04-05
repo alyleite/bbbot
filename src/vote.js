@@ -46,8 +46,8 @@ const goToVotePage = async (page) => {
 
 
 const reloadCaptcha = async (page) => {
-  console.log('Reload Captcha.', xpaths.reloadCaptcha);	  console.log('Reload Captcha.', xpaths.reloadCaptcha);
-  clickXPath(xpaths.reloadCaptcha);	  clickXPath(page, paths.reloadCaptcha);
+  console.log('Reload Captcha.', xpaths.reloadCaptcha);
+  clickXPath(page, paths.reloadCaptcha);
   }
 }
 
