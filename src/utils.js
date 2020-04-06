@@ -35,7 +35,7 @@ const removeSponsor = async (page) => {
     var style = document.createElement('style');
     style.type = 'text/css';
     style.innerHTML =
-      '.tag-manager-publicidade-container { display: none; !important}';
+      '#glb-topo, .tag-manager-publicidade-container { display: none; !important}';
     document.getElementsByTagName('head')[0].appendChild(style);
   });
 };
