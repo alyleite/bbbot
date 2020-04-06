@@ -18,6 +18,7 @@ const getPosition = name => {
   }
 
   throw new Error('candidato invalido, use babu | flay | marcela');
+
 };
 
 

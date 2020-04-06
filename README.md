@@ -2,7 +2,8 @@ BBBot + OpenCV
 ===============
 
 Paredão dessa semana:
-Babu, Flay e Marcela
+
+Babu, Flayslane e Marcela
 
 
 Você precisa exportar duas variáveis para poder logar no site da Globo e uma para o participante que vai ser votado:
