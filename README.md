@@ -2,6 +2,7 @@ BBBot + OpenCV
 ===============
 
 Paredão dessa semana:
+
 Babu, Flayslane e Marcela
 
 
@@ -26,7 +27,7 @@ $env:PARTICIPANTE=marcela
 Ou pode executar diretamente via node
 
 ```
-node ./src/vote.js gabi your-email@globo.com xxxxxxxxx
+node ./src/vote.js marcela your-email@globo.com xxxxxxxxx
 ```
 
 INSTALAÇÃO NO WINDOWS
