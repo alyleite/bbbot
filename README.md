@@ -3,7 +3,7 @@ BBBot + OpenCV
 
 Paredão dessa semana:
 
-Babu, Flayslane e Marcela
+Babu, Flayslane e Thelma
 
 
 Você precisa exportar duas variáveis para poder logar no site da Globo e uma para o participante que vai ser votado:
@@ -13,7 +13,7 @@ Linux / Mac
 ```
 export GLOBO_USERNAME='your-email@globo.com'
 export GLOBO_PASSWORD='xxxxxxxxx'
-export PARTICIPANTE=marcela
+export PARTICIPANTE=flay
 ```
 
 Windows PowerShell
@@ -21,13 +21,13 @@ Windows PowerShell
 ```
 $env:GLOBO_USERNAME='your-email@globo.com'
 $env:GLOBO_PASSWORD='xxxxxxxxx'
-$env:PARTICIPANTE=marcela
+$env:PARTICIPANTE=flay
 ```
 
 Ou pode executar diretamente via node
 
 ```
-node ./src/vote.js marcela your-email@globo.com xxxxxxxxx
+node ./src/vote.js flay your-email@globo.com xxxxxxxxx
 ```
 
 INSTALAÇÃO NO WINDOWS
