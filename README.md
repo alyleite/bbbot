@@ -3,7 +3,7 @@ BBBot + OpenCV
 
 Paredão dessa semana:
 
-Babu, Flayslane e Thelma
+Babu, Gizelly e Mari
 
 
 Você precisa exportar duas variáveis para poder logar no site da Globo e uma para o participante que vai ser votado:
@@ -27,7 +27,7 @@ $env:PARTICIPANTE=flay
 Ou pode executar diretamente via node
 
 ```
-node ./src/vote.js flay your-email@globo.com xxxxxxxxx
+node ./src/vote.js participante your-email@globo.com xxxxxxxxx
 ```
 
 INSTALAÇÃO NO WINDOWS
