@@ -11,9 +11,9 @@ const getPosition = name => {
   switch (name) {
     case 'babu':
       return 1;
-    case 'flay':
+    case 'gizelly':
       return 2;
-    case 'thelma':
+    case 'mari':
       return 3;
   }
 
