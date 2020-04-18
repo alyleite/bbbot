@@ -1,5 +1,5 @@
 const links = {
-  voteURL: 'https://gshow.globo.com/realities/bbb/bbb20/votacao/paredao-bbb20-quem-voce-quer-eliminar-babu-gizelly-ou-mari-6b0c783d-65cd-4a4e-940c-ad086cf73fee.ghtml',
+  voteURL: 'https://gshow.globo.com/realities/bbb/bbb20/votacao/paredao-bbb20-quem-voce-quer-eliminar-ivy-rafa-ou-thelma-cd652729-2b9a-4b3e-8eed-2d5234fe6172.ghtml',
   globoLoginURL: "https://minhaconta.globo.com",
   captchaURL: "https://captcha.globo.com/api/challenge/generate",
   challengeAcceptedURL: "https://royale.globo.com/polls/",
@@ -9,15 +9,15 @@ const getPosition = name => {
   // console.log('Nome: '+name);
   name = name ? name.toLowerCase() : '';
   switch (name) {
-    case 'babu':
+    case 'ivy':
       return 1;
-    case 'gizelly':
+    case 'rafa':
       return 2;
-    case 'mari':
+    case 'thelma':
       return 3;
   }
 
-  throw new Error('candidato invalido, use babu | gizelly | mari');
+  throw new Error('candidato invalido, use ivy | rafa | Thelma');
 
 };
 
