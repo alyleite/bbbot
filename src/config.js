@@ -11,13 +11,13 @@ const getPosition = name => {
   switch (name) {
     case 'babu':
       return 1;
-    case 'gizelly':
+    case 'manu':
       return 2;
     case 'mari':
       return 3;
   }
 
-  throw new Error('candidato invalido, use babu | gizelly | mari');
+  throw new Error('candidato invalido, use babu | manu | mari');
 
 };
 
