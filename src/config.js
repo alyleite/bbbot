@@ -1,5 +1,5 @@
 const links = {
-  voteURL: 'https://gshow.globo.com/realities/bbb/bbb20/votacao/paredao-bbb20-quem-voce-quer-eliminar-babu-gizelly-ou-mari-6b0c783d-65cd-4a4e-940c-ad086cf73fee.ghtml',
+  voteURL: 'https://gshow.globo.com/realities/bbb/bbb20/votacao/paredao-bbb20-quem-voce-quer-eliminar-babu-manu-ou-mari-ef6b3f8d-6cd8-4418-9f63-ca6702323cde.ghtml',
   globoLoginURL: "https://minhaconta.globo.com",
   captchaURL: "https://captcha.globo.com/api/challenge/generate",
   challengeAcceptedURL: "https://royale.globo.com/polls/",
