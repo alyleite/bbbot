@@ -1,11 +1,6 @@
 BBBot + OpenCV
 ===============
 
-Paredão dessa semana:
-
-Babu, Gizelly e Mari
-
-
 Você precisa exportar duas variáveis para poder logar no site da Globo e uma para o participante que vai ser votado:
 
 Linux / Mac
@@ -72,8 +67,9 @@ Esse bot é feito utilizando o SIFT do OpenCV. Algumas captchas não vão funcio
 TODO
 =====
 
+  - Captchas são atualizados pelo GShow diariamente, é necessário selecionar os captchas errados na pasta images e, após renomea-los mover para a pasta images_individual
   - Precisa melhorar em condições adversas (clique errado, dois cliques no captcha);
   - Colocar no docker.hub;
   - Cleanup das pastas de imagens;
 
-Inspirado no https://github.com/diofeher/bbbot porém acabei não fazendo o fork
+Inspirado no bot não utilizado mais do https://github.com/diofeher/
