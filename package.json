@@ -1,13 +1,13 @@
 {
   "name": "bbbot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "vote.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/vote.js"
   },
-  "author": "diofeher",
+  "author": "Malkavianson",
   "license": "ISC",
   "dependencies": {
     "puppeteer": "^2.1.1"
