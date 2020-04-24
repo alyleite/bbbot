@@ -8,7 +8,7 @@ Linux / Mac
 ```
 export GLOBO_USERNAME='your-email@globo.com'
 export GLOBO_PASSWORD='xxxxxxxxx'
-export PARTICIPANTE=flay
+export PARTICIPANTE=rafa
 ```
 
 Windows PowerShell
